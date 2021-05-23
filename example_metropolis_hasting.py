@@ -3,7 +3,7 @@ import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 
-from Metropolis.metropolis import MetropolisAlgorithm
+from metropolis.metropolis import MetropolisAlgorithm
 
 # Please we aware that i am not generating here exactly the same random numbers than in R
 np.random.seed(568)
