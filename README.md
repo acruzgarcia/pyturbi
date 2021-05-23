@@ -1,2 +1,2 @@
 # pytrubi
- Library for time series analysis, statistics and econometric modelling.
+ Library for time series analysis, statistics and econometric modelling at its very early days...
