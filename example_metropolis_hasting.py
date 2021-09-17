@@ -1,11 +1,10 @@
-# This is a sample Python script.
 import numpy as np
 import scipy.stats as stats
 import matplotlib.pyplot as plt
 
 from metropolis.metropolis import MetropolisAlgorithm
 
-# Please we aware that i am not generating here exactly the same random numbers than in R
+# Random generation according to normal distribution
 np.random.seed(568)
 x = np.random.normal(loc=0.0, scale=2.0, size=500)
 print('Sampled mean and std: mean={:2.2f}, std={:2.2f}'.format(np.mean(x), np.std(x)))
@@ -43,5 +42,3 @@ for i in [0, 1]:
     ax = plt.subplot(1, 2, i + 1)
     ax.hist(result.batch[:, i])
 plt.show()
-
-pepe = 1
